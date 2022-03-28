@@ -133,8 +133,10 @@ It seems like Netlify uses the deployed functions rather than the ones in a bran
 
 2. Run `make create-index` and then `make index-helpcenter` and `make index-devportal` to populate the OpenSearch data (you can go browse with OpenSearch dashboards at this point if you're interested)
 
-3. From the `netlify/` directory, run `netlify dev` - this starts a server on port 8888 (but won't serve the site itself because we don't have configuration to run it locally, I think it would be possible if we needed to though)
+3. Install dependencies by running ``npm install``
 
-4. The search function is now available at `http://localhost:8888/.netlify/functions/search` - add `?query=kafka` or whatever your search query should be, to check that the function works and returns the results you expect. The local server will show error logs if there are any.
+4. From the `netlify/` directory, run `netlify dev` - this starts a server on port 8888 (but won't serve the site itself because we don't have configuration to run it locally, I think it would be possible if we needed to though)
+
+5. The search function is now available at `http://localhost:8888/.netlify/functions/search` - add `?query=kafka` or whatever your search query should be, to check that the function works and returns the results you expect. The local server will show error logs if there are any.
 
 _Elasticsearch is a trademark of Elasticsearch B.V., registered in the U.S. and in other countries._
