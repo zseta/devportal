@@ -103,6 +103,7 @@ Redis
 Redli
 refcard
 reindexing
+reStructuredText
 Sakila
 schemaless
 scriptable
@@ -111,6 +112,7 @@ signups
 Simple Authentication and Security Layer
 Singlestat
 Snowflake
+Sphinx
 Splunk
 [Ss]pring
 Stackdriver
