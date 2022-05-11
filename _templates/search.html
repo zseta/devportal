@@ -92,7 +92,7 @@
     var searchResults = $("#search-results .search");
     var pagination = $("#search-results .pagination");
 
-    $.get("/.netlify/functions/search?" + $.param({ query: query, page: page }))
+    $.get("http://localhost:8888/.netlify/functions/search?" + $.param({ query: query, page: page }))
       .done(function (data) {
         if (data.resultCount === 0) {
           searchSummary.html("Your search did not match any documents.");
