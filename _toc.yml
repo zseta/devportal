@@ -545,3 +545,4 @@ entries:
 
   # -------- AUXILIARY
   - file: docs/community
+  - file: docs/aiven-support-details
